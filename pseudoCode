@@ -1,0 +1,12 @@
+<div class="cards-container">
+    <div class="episode-card">
+        <span class="episode-name-holder">
+            <p class="episode-name-num-text"></p>
+        </span>
+    <div class="image-holder">
+        <img class= "medium-img" src="">
+    </div>
+    <div class="episode-summary-container">
+        <p class="episode-summary"></p>
+    </div>
+</div>
