@@ -42,7 +42,7 @@ episodeList.forEach(episode => {
   episodeNameHolder.appendChild(episodeName);
 
    // putting the title inside episode name by accessing the data
-   episodeName.innerHTML = episode.name;
+  //  episodeName.innerHTML = episode.name;
    //You should combine season number and episode number into an episode code:
   //Each part should be zero-padded to two digits.
   //Example: S02E07 would be the code for the 7th episode of the 2nd season. S2E7 would be incorrect.
@@ -59,10 +59,10 @@ episodeList.forEach(episode => {
 const episodeNameNumber = document.createElement("h2");
 episodeNameNumber.classList.add("episode-name-number");
 episodeNameNumHolder.appendChild(episodeNameNumber);
-const paddedSeasonNum = ("0" + episodeList[i].season).slice(-2);
-const paddedEpisodeNum = ("0" + episodeList[i].number).slice(-2);
-const detailedEpisodeName =episode.name + paddedSeasonNum +paddedEpisodeNum;
-// episodeNameNumHolder.innerText = `${episodeList[i].name}- S${paddedSeasonNum}E${paddedEpisodeNum}`;
+// const paddedSeasonNum = ("0" + episodeList[i].season).slice(-2);
+// const paddedEpisodeNum = ("0" + episodeList[i].number).slice(-2);
+// const detailedEpisodeName =episode.name + paddedSeasonNum +paddedEpisodeNum;
+// episodeName.innerText = `${episodeList[i].name}- S${paddedSeasonNum}E${paddedEpisodeNum}`;
 
   // create episode image holder inside episode card
   const episodeImageHolder = document.createElement("div");
