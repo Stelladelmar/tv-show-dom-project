@@ -1,3 +1,41 @@
 #root {
-  color: purple;
+  color: black;
+}
+body {
+  background-color: lightsteelblue;
+}
+.episode-card-container {
+  
+}
+
+  .episode-card {
+    display: flex;
+    flex-direction: column;
+    border: 0.1rem #84d8ec solid;
+    background-color: #D1EBF1;
+    width: 96%;
+    border-radius: 0.3rem;
+    align-items: center;
+    padding: 1rem;
+  }
+  .episode-name-holder {
+    border: ;
+    text-align: center;
+    font-size: large;
+
+
+  }
+  .episode-name-text{
+    text-align: center;
+    font-size: large;
+  }
+.episode-image-holder {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  width: 70;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: lightyellow
+
 }
