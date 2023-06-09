@@ -6,23 +6,35 @@
     <title>TV Show Project | Stella (Stelladelmar)</title>
     <link href="style.css" rel="stylesheet" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
-
   <body>
+    <header>
+      <!-- <div class="search-bar"> -->
+      <input type="text" id="searchInput" placeholder="Search for show name...">
+    <ul id="episodeList"></ul>
+    </div>
+    <!-- <input autocomplete="off" type="search" id="search" placeholder="Search for show name..." /> -->
+
+<ul id="results"></ul>
+    <!-- <ul id="resultsList"></ul> -->
+    
+    </header>
     <div id="root">
+  
       <!-- <div class="cards-holder">
         <div class="episode-card">
             <span class="episode-name-holder">
                 <p class="episode-name-text"></p>
-            </span>1
+            </span>
         <div class="image-holder">
             <img class= "medium-img" src="">
         </div>
         <div class="episode-summary-holder">
             <p class="episode-summary"></p>
         </div>
-      </div> -->
-    </div>
+      </div>
+    </div> -->
 
     <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
     <script src="episodes.js"></script>
@@ -30,4 +42,7 @@
     <!-- Loads YOUR javascript code -->
     <script src="script.js"></script>
   </body>
+  <footer>
+    <!-- Your page should state somewhere that the data has (originally) come from TVMaze.com, and link back to that site (or the specific episode on that site). See tvmaze.com/api#licensing. -->
+  </footer>
 </html>
